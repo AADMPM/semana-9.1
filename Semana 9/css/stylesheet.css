@@ -1,0 +1,83 @@
+body{
+	background-repeat: no-repeat;
+	width: 100%;
+      height:auto;
+}
+#wrapper{width: 100%;}
+#title{ 
+       font-size: 3.4em; 
+        font-family: 'Roboto Condensed', sans-serif;;
+    }
+
+table  {
+    float:right;
+    background-color:#7E9F2E;
+    width: 65%;
+              
+}
+
+table tr td a{
+	font-size: 2em;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	color:white;
+}
+a:hover{
+	background-color:#1d5;
+}
+
+ img {
+      width: 25%;
+      height:auto;
+     }
+
+section article p{
+	font-size:1.0em;
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 30px;
+}
+.container{
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+aside{
+       background-color:#7E9F2E;
+	   width: 20%; 
+	   border:2% black;	   
+	   height:401px;
+       padding:10px;
+	   display:inline-block;
+	   float:left;
+ }
+ul li h3 a{
+	text-decoration:none;
+    color:white;
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif; 
+    }
+
+footer{background-color: red; 
+}
+ 
+footer p{
+	color:white;
+	font-family: 'Lato', sans-serif;
+	font-size:1.2em;
+	text-align: center;
+}
+@media screen and (max-width:600px) {
+  
+  header img  {display:none;
+  }
+  ul li h3 a:hover {background-color:red;
+  }
+  header h1 {font-family: impact;
+  }
+  footer{background-color: black;}
+
+  section article p{color:white;
+  }
+  section article h2{color:white;}
+  }
+
